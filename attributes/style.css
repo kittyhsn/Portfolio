@@ -21,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 92px;
 }
 
 h2 {
@@ -36,6 +36,10 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+.in-touch {
+  font-size: 58px;
 }
 
 .hero {
@@ -144,13 +148,24 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
-.text-center {
+.title-paragraph {
   font-size: 7px;
 }
 
-.ending-links {
+.ending-link {
   text-decoration: none;
+  color: var(--branding-color);
 }
+
+.ending-link:hover {
+  color: #272142;
+  text-decoration: underline;
+}
+
+.about-code {
+  font-size: 7px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -165,6 +180,14 @@ footer .social-links a:hover {
     font-size: 25px;
   }
 
+  footer .email-link {
+    font-size: 20px;
+  }
+
+  .title-paragraph {
+    font-size: 20px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -176,6 +199,10 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-code {
+    font-size: 7px;
   }
 }
 
