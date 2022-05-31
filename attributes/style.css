@@ -41,7 +41,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -56,7 +56,7 @@ p {
   line-height: 2;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -144,6 +144,13 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.text-center {
+  font-size: 7px;
+}
+
+.ending-links {
+  text-decoration: none;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
