@@ -115,10 +115,6 @@ p {
   border-radius: 5px;
 }
 
-.work-inquiry p {
-  margin: 0px;
-}
-
 footer {
   margin: 60px 0;
 }
@@ -149,7 +145,7 @@ footer .social-links a:hover {
 }
 
 .title-paragraph {
-  font-size: 7px;
+  font-size: 18px;
 }
 
 .ending-link {
